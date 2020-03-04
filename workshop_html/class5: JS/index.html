@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JS</title>
+</head>
+
+
+
+
+
+<body>
+
+    <div class="avatar" id="changepic" onclick="random_numb()"><img src='../class4/Image/pic2.png' width='200' height='200'  border='3px solid black' alt='Avatar'>
+    </div>
+<p>Click the picture and the number will appear</p>
+<p id="randomnumb">HERE</p>
+    
+
+
+
+
+
+<script>
+
+// pick and display random nb
+function random_numb(){
+         var numbers = Array(1,2,3,4)
+         var randomIndex = Math.floor(Math.random()*numbers.length);
+         var nb = numbers[randomIndex];
+         document.getElementById('randomnumb').innerHTML = nb;
+              }
+</script>
+
+
+</body>
+</html>
