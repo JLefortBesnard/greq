@@ -1,1 +1,1 @@
-# Doc used for the HTML/CSS/Javascript workshop
+Doc used for the HTML/CSS/Javascript workshop
